@@ -1,0 +1,40 @@
+{
+  "name": "ai-workstation-remote",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "predev": "npm run setup:cursor-relay",
+    "dev": "concurrently -k -n relay,host,mobile -c blue,green,magenta \"npm run dev -w @ai-workstation/control-plane\" \"npm run dev -w @ai-workstation/mac-companion\" \"npm run dev -w @ai-workstation/mobile\"",
+    "build": "npm run typecheck && npm run build -w @ai-workstation/mobile",
+    "build:mac": "bash scripts/build-macos.sh",
+    "build:win": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File scripts/build-windows.ps1",
+    "licenses": "node scripts/generate-third-party-notices.mjs",
+    "preremote:quick": "npm run setup:cursor-relay",
+    "remote:quick": "npm run build -w @ai-workstation/mobile && node scripts/start-quick-tunnel.mjs",
+    "setup:cursor-relay": "node scripts/setup-cursor-relay.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "verify:codex": "node scripts/verify-codex-source.mjs",
+    "verify:cursor": "node scripts/verify-cursor-source.mjs",
+    "verify:claude": "node scripts/verify-claude-source.mjs",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "node --test scripts/*.test.mjs && npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "esbuild": "^0.28.2",
+    "qrcode-terminal": "^0.12.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
+

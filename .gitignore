@@ -1,0 +1,16 @@
+node_modules/
+.tools/
+dist/
+release/
+.DS_Store
+*.log
+.env
+.idea/
+.vscode/
+coverage/
+
+# Extracted on demand from the tracked cloudflared archives.
+vendor/cloudflared/darwin-amd64/cloudflared
+vendor/cloudflared/darwin-arm64/cloudflared
+vendor/cloudflared/windows-amd64/cloudflared.exe
+

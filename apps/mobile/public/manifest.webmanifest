@@ -1,0 +1,10 @@
+{
+  "name": "AI Workstation Remote",
+  "short_name": "Workstation",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f4",
+  "theme_color": "#f4f6f4",
+  "description": "Mobile control plane for local AI coding workstations"
+}
+

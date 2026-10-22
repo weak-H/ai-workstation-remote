@@ -1,0 +1,28 @@
+{
+  "name": "ai-workstation-cursor-relay",
+  "displayName": "AI Workstation Cursor Relay",
+  "description": "Local relay for focusing and creating Cursor conversations on macOS and Windows.",
+  "version": "0.2.0",
+  "publisher": "ai-workstation",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "activationEvents": [
+    "*",
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  }
+}
