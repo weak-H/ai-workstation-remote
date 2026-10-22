@@ -27,7 +27,7 @@ Cette page est un résumé traduit. Le [README anglais](../../README.md) reste l
 Il faut macOS (Apple Silicon ou Intel) ou Windows 10/11, Node.js 22.5+ et au moins un client local pris en charge.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

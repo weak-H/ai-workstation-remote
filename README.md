@@ -45,7 +45,7 @@ The repository contains compressed `cloudflared` archives for each supported pla
 ### macOS
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ### Windows PowerShell
@@ -69,7 +69,7 @@ The default local URL is `http://127.0.0.1:8787`. Direct loopback access does no
 Use another port when `8787` is already occupied:
 
 ```bash
-CONTROL_PORT=8788 ./run.sh
+CONTROL_PORT=8788 caffeinate -i ./run.sh
 ```
 
 ```powershell

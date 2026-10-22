@@ -27,7 +27,7 @@ AI Workstation Remote 是本機優先、廠商中立的 Web 控制層，可將 m
 需要 macOS（Apple Silicon 或 Intel）、Windows 10 x64 或 Windows 11（x64/ARM64）、Node.js 22.5+，以及至少一個支援的本機客戶端。
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

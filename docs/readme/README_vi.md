@@ -27,7 +27,7 @@ AI Workstation Remote là lớp điều khiển Web local-first và trung lập 
 Cần macOS (Apple Silicon hoặc Intel) hay Windows 10/11, Node.js 22.5+ và ít nhất một ứng dụng cục bộ được hỗ trợ.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

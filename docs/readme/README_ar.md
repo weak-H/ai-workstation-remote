@@ -31,7 +31,7 @@ AI Workstation Remote هو طبقة تحكّم Web محلية أولاً ومح�
 </div>
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

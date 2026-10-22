@@ -27,7 +27,7 @@ To zlokalizowany skrót. Pełne zachowanie, konfigurację i aktualne granice bez
 Wymagane są macOS (Apple Silicon lub Intel) albo Windows 10/11, Node.js 22.5+ i co najmniej jeden obsługiwany klient lokalny.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

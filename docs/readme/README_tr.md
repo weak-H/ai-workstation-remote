@@ -27,7 +27,7 @@ Bu sayfa çevrilmiş bir özettir. Tam davranış, yapılandırma ve güncel gü
 macOS (Apple Silicon veya Intel) ya da Windows 10/11, Node.js 22.5+ ve desteklenen en az bir yerel istemci gerekir.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

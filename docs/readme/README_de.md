@@ -27,7 +27,7 @@ Dies ist eine lokalisierte Übersicht. Verbindlich für vollständiges Verhalten
 Erforderlich sind macOS (Apple Silicon oder Intel) oder Windows 10/11, Node.js 22.5+ und mindestens ein unterstützter lokaler Client.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

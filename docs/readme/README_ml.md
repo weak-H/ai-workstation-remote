@@ -27,7 +27,7 @@ macOS അല്ലെങ്കിൽ Windows-ൽ പ്രവർത്തിക�
 macOS (Apple Silicon അല്ലെങ്കിൽ Intel) അല്ലെങ്കിൽ Windows 10/11, Node.js 22.5+, പിന്തുണയ്ക്കുന്ന ഒരു ലോക്കൽ client എങ്കിലും ആവശ്യമാണ്.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

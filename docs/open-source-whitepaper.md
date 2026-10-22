@@ -173,7 +173,7 @@ Agent 会话身份      当前任务属于 Codex、Cursor 或 Claude Code 的哪
 
 ### 4.3 当前开发模式的限制
 
-`./run.sh` 使用 Cloudflare Quick Tunnel 暴露临时 HTTPS/WSS 地址，并通过 URL 中的随机 token 提供额外保护。这适合真实手机验证，但仍有以下限制：
+`caffeinate -i ./run.sh` 在阻止 macOS 空闲休眠的同时，使用 Cloudflare Quick Tunnel 暴露临时 HTTPS/WSS 地址，并通过 URL 中的随机 token 提供额外保护。这适合真实手机验证，但仍有以下限制：
 
 - token 是开发期门槛，不是完整设备身份。
 - 尚未实现设备公钥、签名命令与端到端加密信封。

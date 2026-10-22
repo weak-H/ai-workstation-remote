@@ -27,7 +27,7 @@ AI Workstation Remote — локальный и независимый от по
 Требуются macOS (Apple Silicon или Intel) либо Windows 10/11, Node.js 22.5+ и хотя бы один поддерживаемый локальный клиент.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

@@ -37,7 +37,7 @@ AI 编程任务可能长时间运行、等待审批，也可能在开发者离�
 macOS：
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 Windows PowerShell：

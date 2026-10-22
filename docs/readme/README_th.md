@@ -27,7 +27,7 @@ AI Workstation Remote เป็นชั้นควบคุม Web แบบ l
 ต้องใช้ macOS (Apple Silicon หรือ Intel) หรือ Windows 10/11, Node.js 22.5+ และไคลเอนต์ในเครื่องที่รองรับอย่างน้อยหนึ่งรายการ
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

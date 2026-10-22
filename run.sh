@@ -63,7 +63,7 @@ if ! node -e '
 ' "$CONTROL_PORT"; then
   echo "本地端口 ${CONTROL_PORT} 已被占用，可能已有 AI Workstation Remote 正在运行。" >&2
   echo "请回到旧实例的终端按 Ctrl+C 停止后再启动。" >&2
-  echo "如需并行运行，请显式指定其他端口，例如：CONTROL_PORT=8788 ./run.sh" >&2
+  echo "如需并行运行，请显式指定其他端口，例如：CONTROL_PORT=8788 caffeinate -i ./run.sh" >&2
   exit 1
 fi
 

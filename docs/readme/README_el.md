@@ -27,7 +27,7 @@
 Απαιτούνται macOS (Apple Silicon ή Intel) ή Windows 10/11, Node.js 22.5+ και τουλάχιστον ένας υποστηριζόμενος τοπικός πελάτης.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

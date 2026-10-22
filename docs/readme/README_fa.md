@@ -31,7 +31,7 @@ AI Workstation Remote یک لایهٔ کنترل Web با رویکرد local-fir
 </div>
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

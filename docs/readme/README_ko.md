@@ -27,7 +27,7 @@ AI Workstation Remote는 macOS 또는 Windows에서 실행 중인 실제 Codex, 
 macOS(Apple Silicon 또는 Intel)나 Windows 10/11, Node.js 22.5 이상, 지원되는 로컬 클라이언트 하나 이상이 필요합니다.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

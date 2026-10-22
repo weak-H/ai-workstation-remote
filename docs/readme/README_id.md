@@ -27,7 +27,7 @@ Dokumen ini adalah ringkasan terjemahan. [README bahasa Inggris](../../README.md
 Memerlukan macOS (Apple Silicon atau Intel) atau Windows 10/11, Node.js 22.5+, dan setidaknya satu klien lokal yang didukung.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell

@@ -27,7 +27,7 @@ Este é um resumo traduzido. O [README em inglês](../../README.md) é a referê
 Requer macOS (Apple Silicon ou Intel) ou Windows 10/11, Node.js 22.5+ e pelo menos um cliente local compatível.
 
 ```bash
-./run.sh
+caffeinate -i ./run.sh
 ```
 
 ```powershell
